@@ -1,0 +1,8 @@
+com\dynamic\mapper\BaseMapper.class
+com\dynamic\mapper\SlaveMapper.class
+com\dynamic\service\BaseService.class
+com\dynamic\service\SlaveService.class
+com\dynamic\controller\IndexController.class
+com\dynamic\service\SlaveServiceImpl.class
+com\dynamic\service\BaseServiceImpl.class
+com\dynamic\pojo\Student.class
