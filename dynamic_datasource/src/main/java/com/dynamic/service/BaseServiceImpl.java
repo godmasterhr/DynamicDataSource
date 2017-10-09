@@ -6,6 +6,7 @@ import com.dynamic.util.DBContextHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.sql.DataSource;
 import java.util.List;
 
 /**
@@ -17,10 +18,8 @@ public class BaseServiceImpl implements BaseService{
     @Autowired
     private BaseMapper baseMapper;
 
+
     public List<Student> findStudentList() {
-
-
-        System.out.println(DBContextHolder.getDBType());
         return baseMapper.findStudentList();
     }
 }

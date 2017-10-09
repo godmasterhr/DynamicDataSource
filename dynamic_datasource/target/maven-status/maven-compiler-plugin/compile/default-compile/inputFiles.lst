@@ -1,5 +1,6 @@
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\pojo\Student.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\service\BaseService.java
+G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\aspect\DataSourceAspect.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\service\BaseServiceImpl.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\service\SlaveService.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\aspect\DynamicDataSource.java
@@ -8,3 +9,4 @@ G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\controller\IndexCo
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\util\DBContextHolder.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\mapper\BaseMapper.java
 G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\service\SlaveServiceImpl.java
+G:\IdeaWorkSpace\dynamic_datasource\src\main\java\com\dynamic\anno\DataSource.java

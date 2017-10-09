@@ -1,5 +1,6 @@
 package com.dynamic.controller;
 
+import com.dynamic.anno.DataSource;
 import com.dynamic.pojo.Student;
 import com.dynamic.service.BaseService;
 import com.dynamic.util.DBContextHolder;
@@ -13,6 +14,7 @@ import java.util.List;
  * Created by Administrator on 2017/9/30.
  */
 @Controller
+@DataSource("slave")
 public class IndexController {
 
     @Autowired
@@ -20,7 +22,6 @@ public class IndexController {
 
     @RequestMapping("/dynamic")
     public String toIndex(){
-        DBContextHolder.setDBType("slave");
         List<Student> studentList = baseService.findStudentList();
         System.out.println(studentList);
         return "dynamic";
